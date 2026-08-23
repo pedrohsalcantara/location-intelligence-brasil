@@ -1,0 +1,266 @@
+{
+  "sources": {
+    "population_estimate": {
+      "table_id": "6579",
+      "period": "2024",
+      "variables": [
+        "9324"
+      ],
+      "data_url_pattern": "https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2024/h/y/f/a/d/m",
+      "bronze_rows": 5571,
+      "silver_rows": 5571,
+      "municipalities": 5571,
+      "bronze_columns": [
+        "nc",
+        "nn",
+        "mc",
+        "mn",
+        "v",
+        "d1c",
+        "d1n",
+        "d2c",
+        "d2n",
+        "d3c",
+        "d3n"
+      ],
+      "dataframe_summary": {
+        "rows": 5571,
+        "columns": 8,
+        "column_names": [
+          "municipality_code",
+          "municipality_name",
+          "variable_code",
+          "variable_name",
+          "period",
+          "value_raw",
+          "source",
+          "value"
+        ],
+        "null_percent_by_column": {
+          "municipality_code": 0.0,
+          "municipality_name": 0.0,
+          "variable_code": 0.0,
+          "variable_name": 0.0,
+          "period": 0.0,
+          "value_raw": 0.0,
+          "source": 0.0,
+          "value": 0.02
+        }
+      }
+    },
+    "municipal_gdp": {
+      "table_id": "5938",
+      "period": "2021",
+      "variables": [
+        "37"
+      ],
+      "data_url_pattern": "https://apisidra.ibge.gov.br/values/t/5938/n6/all/v/37/p/2021/h/y/f/a/d/m",
+      "bronze_rows": 5570,
+      "silver_rows": 5570,
+      "municipalities": 5570,
+      "bronze_columns": [
+        "nc",
+        "nn",
+        "mc",
+        "mn",
+        "v",
+        "d1c",
+        "d1n",
+        "d2c",
+        "d2n",
+        "d3c",
+        "d3n"
+      ],
+      "dataframe_summary": {
+        "rows": 5570,
+        "columns": 8,
+        "column_names": [
+          "municipality_code",
+          "municipality_name",
+          "variable_code",
+          "variable_name",
+          "period",
+          "value_raw",
+          "source",
+          "value"
+        ],
+        "null_percent_by_column": {
+          "municipality_code": 0.0,
+          "municipality_name": 0.0,
+          "variable_code": 0.0,
+          "variable_name": 0.0,
+          "period": 0.0,
+          "value_raw": 0.0,
+          "source": 0.0,
+          "value": 0.0
+        }
+      }
+    },
+    "cempre_general": {
+      "table_id": "9509",
+      "period": "2024",
+      "variables": [
+        "706",
+        "367",
+        "707",
+        "708",
+        "662",
+        "10143"
+      ],
+      "data_url_pattern": "https://apisidra.ibge.gov.br/values/t/9509/n6/all/v/706,367,707,708,662,10143/p/2024/h/y/f/a/d/m",
+      "bronze_rows": 33420,
+      "silver_rows": 33420,
+      "municipalities": 5570,
+      "bronze_columns": [
+        "nc",
+        "nn",
+        "mc",
+        "mn",
+        "v",
+        "d1c",
+        "d1n",
+        "d2c",
+        "d2n",
+        "d3c",
+        "d3n"
+      ],
+      "dataframe_summary": {
+        "rows": 33420,
+        "columns": 8,
+        "column_names": [
+          "municipality_code",
+          "municipality_name",
+          "variable_code",
+          "variable_name",
+          "period",
+          "value_raw",
+          "source",
+          "value"
+        ],
+        "null_percent_by_column": {
+          "municipality_code": 0.0,
+          "municipality_name": 0.0,
+          "variable_code": 0.0,
+          "variable_name": 0.0,
+          "period": 0.0,
+          "value_raw": 0.0,
+          "source": 0.0,
+          "value": 0.0
+        }
+      }
+    },
+    "census_area_density": {
+      "table_id": "4714",
+      "period": "2022",
+      "variables": [
+        "93",
+        "6318",
+        "614"
+      ],
+      "data_url_pattern": "https://apisidra.ibge.gov.br/values/t/4714/n6/all/v/93,6318,614/p/2022/h/y/f/a/d/m",
+      "bronze_rows": 16710,
+      "silver_rows": 16710,
+      "municipalities": 5570,
+      "bronze_columns": [
+        "nc",
+        "nn",
+        "mc",
+        "mn",
+        "v",
+        "d1c",
+        "d1n",
+        "d2c",
+        "d2n",
+        "d3c",
+        "d3n"
+      ],
+      "dataframe_summary": {
+        "rows": 16710,
+        "columns": 8,
+        "column_names": [
+          "municipality_code",
+          "municipality_name",
+          "variable_code",
+          "variable_name",
+          "period",
+          "value_raw",
+          "source",
+          "value"
+        ],
+        "null_percent_by_column": {
+          "municipality_code": 0.0,
+          "municipality_name": 0.0,
+          "variable_code": 0.0,
+          "variable_name": 0.0,
+          "period": 0.0,
+          "value_raw": 0.0,
+          "source": 0.0,
+          "value": 0.0
+        }
+      }
+    }
+  },
+  "gold": {
+    "rows": 5571,
+    "columns": 19,
+    "column_names": [
+      "municipality_code",
+      "municipality_name_ref",
+      "state_code",
+      "state",
+      "state_name",
+      "region",
+      "population_estimated",
+      "gdp_current_brl_thousand",
+      "active_companies",
+      "avg_monthly_salary_brl",
+      "employed_salaried",
+      "employed_total",
+      "local_units",
+      "wages_brl_thousand",
+      "area_km2",
+      "census_population",
+      "density_per_km2",
+      "gdp_per_capita_estimated",
+      "active_companies_per_1000_inhabitants"
+    ],
+    "null_percent_by_column": {
+      "municipality_code": 0.0,
+      "municipality_name_ref": 0.0,
+      "state_code": 0.0,
+      "state": 0.0,
+      "state_name": 0.0,
+      "region": 0.0,
+      "population_estimated": 0.02,
+      "gdp_current_brl_thousand": 0.02,
+      "active_companies": 0.02,
+      "avg_monthly_salary_brl": 0.02,
+      "employed_salaried": 0.02,
+      "employed_total": 0.02,
+      "local_units": 0.02,
+      "wages_brl_thousand": 0.02,
+      "area_km2": 0.02,
+      "census_population": 0.02,
+      "density_per_km2": 0.02,
+      "gdp_per_capita_estimated": 0.02,
+      "active_companies_per_1000_inhabitants": 0.02
+    },
+    "municipalities": 5571,
+    "null_counts": {
+      "population_estimated": 1,
+      "gdp_current_brl_thousand": 1,
+      "active_companies": 1,
+      "avg_monthly_salary_brl": 1,
+      "employed_salaried": 1,
+      "employed_total": 1,
+      "local_units": 1,
+      "wages_brl_thousand": 1,
+      "area_km2": 1,
+      "census_population": 1,
+      "density_per_km2": 1,
+      "gdp_per_capita_estimated": 1,
+      "active_companies_per_1000_inhabitants": 1
+    },
+    "validation_issues": []
+  }
+}
